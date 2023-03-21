@@ -1,5 +1,5 @@
-package com.cristofersilva.src;
-import com.cristofersilva.src.interfaces.ISortingAlgorithms;
+package com.cristofersilva;
+import com.cristofersilva.interfaces.ISortingAlgorithms;
 
 public class QuickSort<T extends Comparable<T>> implements ISortingAlgorithms<T> {
     @Override

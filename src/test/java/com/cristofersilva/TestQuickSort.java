@@ -3,8 +3,7 @@ package com.cristofersilva;
 import static org.junit.Assert.assertArrayEquals;
 import org.junit.Before;
 import org.junit.Test;
-import com.cristofersilva.src.interfaces.ISortingAlgorithms;
-import com.cristofersilva.src.QuickSort;
+import com.cristofersilva.interfaces.ISortingAlgorithms;
 
 public class TestQuickSort {
     private ISortingAlgorithms<Integer> quickSort;
