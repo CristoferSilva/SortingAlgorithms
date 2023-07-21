@@ -13,7 +13,7 @@ public class TestQuickSort {
     }
     @Test
     public void testOrderingAnArray1() {
-        Integer[] arrayToOrder = {4,2,8,7,1,5,3};
+        Integer[] arrayToOrder = {4,2,8,7,1,5,3,6};
         Integer[] arrayOrdered = {1,2,3,4,5,6,7,8};
         Integer[] quickSortArray = quickSort.sort(arrayToOrder);
         assertArrayEquals(arrayOrdered, quickSortArray);
